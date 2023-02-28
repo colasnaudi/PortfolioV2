@@ -1,0 +1,1 @@
+ScrollReveal().reveal('.nav, .main-infos, .projects, .about, .contact, section h2, .maquettes, .school, .skills, .container', { duration: 1400, reset: true});
