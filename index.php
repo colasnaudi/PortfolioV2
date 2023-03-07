@@ -153,7 +153,7 @@
                 <h2>Algorithm Visualization with Buses</h2>
             </div>
             <div class="align-center">
-                <video src="img/CaptureBUS.mov" controls width="38%"></video>
+                <video src="img/CaptureBUS.mov" preload="auto" controls></video>
                 <div class="text">
                     <p>
                         Python app using Tkinter and the data from the Chronoplus bus network. <br>
@@ -182,29 +182,44 @@
                 </div>
             </div>
         </div>
-        <div class="container" style="padding-top: 200px;">
-            <div class="project-title">
-                <h1>🔍</h1>
-                <h2>Data analysis</h2>
+        <div class="container">
+            <div class="project-title" style="padding-top: 10%;">
+                <h2 class="Data-analysis-title">🔍 Data analysis</h2>
             </div>
             <div class="align-center">
                 <div class="text">
                     <p>
-                        Python app using Tkinter and the data from the Chronoplus bus network. <br>
-                        Displays the progress of the chosen algorithm with lines and also the path between the departure stop and the arrival stop showing all intermediate stops. <br>
-                        Also displays the total distance as well as the number of stops. <br>
-                        That video shows the <strong>A*</strong> algorithm. But there are others like <strong>Dijkstra, Warshall, Bellman </strong> visible on my Github.<br>
+                        Analysis of the data of hikers and moutains. <br>
+                        Using Python and ipynb file to show the chart directly in the file. <br>
                         <br>
                         Link to the project:<br>
-                        <a href="https://github.com/colasnaudi/Algorithm-Visualization-Bus">https://github.com/colasnaudi/Algorithm-Visualization-Bus</a><br>
+                        <a href="https://github.com/colasnaudi/Data-analysis/blob/master/ProjetPics.ipynb">https://github.com/colasnaudi/Data-analysis/blob/master/ProjetPics.ipynb</a><br>
                         <br>
                     </p>
                 </div>
-                <img src="img/Graphs1.png" id="graphs1" alt="" onclick="changePicture()">
-                <img src="img/Graphs2.png" id="graphs2" alt="">
-                <img src="img/Graphs3.png" id="graphs3" alt="">
             </div>
-            <h3>Click on the picture <i class="fa-solid fa-arrow-right"></i></h3>
+            <div class="maquettes">
+                <section class="carousel">
+                    <ul class="carousel-items">
+                        <li class="carousel-item">
+                            <div class="card">
+                                <img src="img/Graphs1.png" style="background-color: white;" alt="">
+                            </div>
+                        </li>
+                        <li class="carousel-item">
+                            <div class="card">
+                                <img src="img/Graphs2.png" style="background-color: white;" alt="">
+                            </div>
+                        </li>
+                        <li class="carousel-item">
+                            <div class="card">
+                                <img src="img/Graphs3.png" style="background-color: white;" alt="">
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+                <h3>Scroll to see <i class="fa-solid fa-arrow-right"></i></h3>
+            </div>
             <div class="align-center">
                 <div class="Langages-title">
                     <h2>Languages</h2>
@@ -216,7 +231,7 @@
                 </div>
                 <div class="Notions-title">
                     <h2>Notions</h2>
-                    <p>Maths - Graphs</p>
+                    <p>Maths - Charts</p>
                 </div>
             </div>
         </div>
@@ -335,10 +350,10 @@
             <div class="skill">
                 <div class="skill-name">JavaScript</div>
                 <div class="skill-bar">
-                    <div class="skill-per" per="20%" style="max-width: 20%"></div>
+                    <div class="skill-per" per="50%" style="max-width: 50%"></div>
                 </div>
                 <div class="level">
-                    <p>Beginner</p>
+                    <p>Intermediate</p>
                 </div>
             </div>
 

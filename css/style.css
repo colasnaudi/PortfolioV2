@@ -485,40 +485,52 @@ section img{
     width: 300px;
 }
 
+@media screen and (max-width: 450px) {
+    .Chronoplus-logo img {
+        width: 200px;
+    }
+}
+
+video {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 1010px) {
+    video {
+        width: 60%;
+        height: 60%;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    video {
+        width: 70%;
+        height: 70%;
+    }
+}
+@media screen and (max-width: 650px) {
+    video {
+        width: 80%;
+        height: 80%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    video {
+        width: 90%;
+        height: 90%;
+    }
+}
+
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /*                                Data Analysis                               */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-#graphs1:hover,
-#graphs2:hover,
-#graphs3:hover {
-    cursor: pointer;
-}
 
-#graphs2,
-#graphs3 {
-    width: 400px;
-    position: absolute;
-    background-color: white;
-}
-
-#graphs1 {
-    width: 400px;
-    background-color: white;
-    z-index: 0;
-}
-
-#graphs2 {
-    position: absolute;
-    z-index: -1;
-    right: 13.8%;
-    opacity: 0;
-}
-
-#graphs3 {
-    position: absolute;
-    z-index: -2;
-    right: 13.7%;
-    opacity: 0;
+.Data-analysis-title {
+    font-size: 4vh;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
