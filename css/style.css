@@ -105,7 +105,7 @@ h1 {
     color: white;
     -webkit-text-stroke-color: #000000;
     text-shadow: 7px 6px 0px #7f5af0;
-    animation: easeText 0.7s;
+    animation: easeText 1s;
 }
 
 #main-infos-subtext {
@@ -114,8 +114,8 @@ h1 {
     letter-spacing: 2px;
     text-transform: uppercase;
     margin: 0 20px 20px 20px;
-    color: var(--headline-purple);
-    animation: easeText 1.4s;
+    color: #a588fc;
+    animation: easeText 2s;
 }
 
 @media screen and (max-width: 530px) {
@@ -143,6 +143,22 @@ h1 {
         opacity: 1;
         transform: translateY(0px);
     }
+}
+
+hero img {
+    position: absolute;
+}
+
+.moon {
+    z-index: -3;
+}
+
+.earth {
+    z-index: -2;
+}
+
+.astronaut {
+    z-index: -1;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -222,6 +238,9 @@ section img{
 
     section img {
         width: 120px;
+    }
+
+    .image {
         margin-top: 40px;
     }
 }
@@ -394,6 +413,8 @@ section img{
     display: flex;
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
+    background-color: #29292c;
+    border-radius: 20px;
 }
 
 .carousel-item {
@@ -422,6 +443,12 @@ section img{
 ::-webkit-scrollbar-thumb {
     background-color: #3176b6;
     border-radius: 3px;
+}
+
+@media screen and (max-width: 575px) {
+    .carousel-item {
+        margin-top: 0;
+    }
 }
 
 
