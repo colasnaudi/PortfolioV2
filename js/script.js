@@ -1,4 +1,13 @@
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/*                                ScrollReveal                                */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
 ScrollReveal().reveal('.nav, .main-infos, .projects, .about, .contact, section h2, .maquettes, .school, .skills, .container', { duration: 1400, reset: true});
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/*                             Animation on scroll                            */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 let moon = document.querySelector('.moon');
 let earth = document.querySelector('.earth');
@@ -46,3 +55,27 @@ window.addEventListener('scroll', function() {
         astronaut.style.opacity = 0 + value*0.06;
     }
 });
+
+function changePicture() {
+    let graphs1 = document.getElementById('graphs1');
+    let graphs2 = document.getElementById('graphs2');
+    let graphs3 = document.getElementById('graphs3');
+
+
+    if (graphs2.style.opacity == 0 && graphs3.style.opacity == 0) {
+        graphs1.style.opacity = 0;
+        graphs2.style.opacity = 1;
+        graphs3.style.opacity = 0;
+    }
+    else if (graphs1.style.opacity == 0 && graphs3.style.opacity == 0) {
+        graphs1.style.opacity = 0;
+        graphs2.style.opacity = 0;
+        graphs3.style.opacity = 1;
+    }
+    else if (graphs1.style.opacity == 0 && graphs2.style.opacity == 0) {
+        graphs1.style.opacity = 1;
+        graphs2.style.opacity = 0;
+        graphs3.style.opacity = 0;
+    }
+    
+}

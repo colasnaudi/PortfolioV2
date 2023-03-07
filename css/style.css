@@ -86,7 +86,6 @@ ul li a:hover{
     border-bottom: 2px solid #7f5af0;
 }
 
-
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /*                                   HEADER                                   */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -476,6 +475,50 @@ section img{
     .carousel-item {
         flex-basis: 450px;
     }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/*                                 Chronoplus                                 */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.Chronoplus-logo img {
+    width: 300px;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/*                                Data Analysis                               */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+#graphs1:hover,
+#graphs2:hover,
+#graphs3:hover {
+    cursor: pointer;
+}
+
+#graphs2,
+#graphs3 {
+    width: 400px;
+    position: absolute;
+    background-color: white;
+}
+
+#graphs1 {
+    width: 400px;
+    background-color: white;
+    z-index: 0;
+}
+
+#graphs2 {
+    position: absolute;
+    z-index: -1;
+    right: 13.8%;
+    opacity: 0;
+}
+
+#graphs3 {
+    position: absolute;
+    z-index: -2;
+    right: 13.7%;
+    opacity: 0;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
