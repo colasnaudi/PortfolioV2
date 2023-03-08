@@ -12,18 +12,27 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="nav sticky">
-        <div class="logo">
-            <a href="#">
-                <i class="fas fa-code"></i>
-            </a>
-        </div>
-        <ul>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </div>
+    <navbar class="header sticky">
+        <nav class="navbar">
+            <a href="#" class="nav-logo"><i class="fas fa-code"></i></a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </navbar>
 
     <header>
         <div class="main-infos">
@@ -299,7 +308,7 @@
                     <div class="skill-per" per="70%" style="max-width: 70%"></div>
                 </div>
                 <div class="level">
-                    <p>Intermediate</p>
+                    <p>Advanced</p>
                 </div>
             </div>
             <div class="skill">
@@ -308,7 +317,7 @@
                     <div class="skill-per" per="70%" style="max-width: 70%"></div>
                 </div>
                 <div class="level">
-                    <p>Intermediate</p>
+                    <p>Advanced</p>
                 </div>
             </div>
             <div class="skill">
@@ -317,7 +326,7 @@
                     <div class="skill-per" per="70%" style="max-width: 70%"></div>
                 </div>
                 <div class="level">
-                    <p>Intermediate</p>
+                    <p>Advanced</p>
                 </div>
             </div>
             <div class="skill">
